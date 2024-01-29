@@ -2,6 +2,8 @@
 import pandas as pd
 from mosaic_widget import MosaicWidget
 
+#Classic weather example
+
 weather = pd.read_csv(
     "https://uwdata.github.io/mosaic-datasets/data/seattle-weather.csv",
     parse_dates=["date"],
@@ -86,7 +88,11 @@ specification = {
         },
     ],
 }
+
+
+
 mosaic = MosaicWidget(specification, data={"weather": weather})
+
 
 # THE PANEL APP
 

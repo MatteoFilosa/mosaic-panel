@@ -23,3 +23,5 @@ and run:
 
 pip install pandas==2.0.0
 
+To run a python file containing the visualization write in the terminal: panel serve <name.py>
+
